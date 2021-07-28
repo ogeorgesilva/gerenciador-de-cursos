@@ -19,4 +19,9 @@ public class Aluno {
 		return numeroMatricula;
 	}
 
+	@Override
+	public String toString() {
+		return "[Aluno: " + this.nome + ", matricula: " + this.numeroMatricula + "]";
+	}
+
 }
