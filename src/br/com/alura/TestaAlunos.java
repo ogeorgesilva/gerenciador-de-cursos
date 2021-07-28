@@ -1,9 +1,7 @@
 package br.com.alura;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
-import java.util.List;
 
 public class TestaAlunos {
 
@@ -36,8 +34,6 @@ public class TestaAlunos {
 		
 		System.out.println(alunos);
 		System.out.println();
-		
-		List<String> alunosEmLista = new ArrayList<>(alunos);
 		
 	}
 
